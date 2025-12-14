@@ -23,10 +23,15 @@
     margin: 1rem;
     cursor: pointer;
 }
+.desktopMenuListItem:hover{
+    color: rgb(15, 197, 109);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(0, 229, 255);
+}
 .desktopMenuBtn{
     background: white;
     border: non;
-    color: rgb(4, 79, 150);
+    color: rgb(50, 26, 230);
     border: none;
     display: flex;
     align-items: center;
