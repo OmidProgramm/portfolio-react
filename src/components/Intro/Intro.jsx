@@ -7,7 +7,7 @@ export const Intro = () => {
   return (
     <section id="intro">
       <div className="introContent">
-        <span className="hello">Hello</span>
+        <span className="hello">Hello,</span>
         <span className="introText">I'm a <span className='introName'>Developer</span><br/>Website Designer</span>
         <p className="introPara">
           I'm a passionate web designer crafting visually stunning and user friendly websites
