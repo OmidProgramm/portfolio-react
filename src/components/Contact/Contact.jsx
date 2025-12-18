@@ -4,6 +4,10 @@ import company1 from '../../assets/images/company1.png';
 import company2 from '../../assets/images/company2.png';
 import company3 from '../../assets/images/company3.png';
 import company4 from '../../assets/images/company4.png';
+import facebook from '../../assets/images/facebook-icon.png';
+import github from '../../assets/images/github.png';
+import telegram from '../../assets/images/telegram.png';
+import twitter from '../../assets/images/twitter.png';
 
 export default function Contact() {
   return (
@@ -21,7 +25,22 @@ export default function Contact() {
                 <img src={company4} alt="client" className="clientImg" />
             </div>
         </div>
-        <div id="contact"></div>
+        <div id="contact">
+            <h1 className="contactPageTitle">Contact Me</h1>
+            <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
+            <form className='contactForm'>
+                <input type="text" className="name" placeholder='Your Name'/>
+                <input type="email" className="email" placeholder='Your Email'/>
+                <textarea name="message" rows={5} placeholder='Your Message' className='msg'></textarea>
+                <button type='submit' value='send' className="submitBtn">Submit</button>
+                <div className="links">
+                    <img src={facebook} alt="facebook" className='link'/>
+                    <img src={github} alt="github" className='link'/>
+                    <img src={telegram} alt="telegram" className='link'/>
+                    <img src={twitter} alt="twitter" className='link'/>
+                </div>
+            </form>
+        </div>
     </section>
   )
 }
