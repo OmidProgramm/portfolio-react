@@ -6,7 +6,6 @@
   align-items: center;
   text-align: center;
   padding: 1rem;
-  border: 3px solid yellow;
 }
 .worksTitle {
   margin: 1rem 0;
@@ -15,6 +14,7 @@
 .worksDesc {
   font-weight: 300;
   font-size: 1rem;
+  text-align: justify;
 }
 .worksImgs {
   width: 100%;
@@ -31,6 +31,22 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 8px;
+}
+.workBtn{
+  margin-top: 20px;
+  padding: 0.5rem 2rem;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.workBtn:hover{
+  scale: 1.08;
+  color: white;
+  background-color: rgb(22, 21, 21);
 }
 @media (min-width: 558px) {
   .worksImgs {
