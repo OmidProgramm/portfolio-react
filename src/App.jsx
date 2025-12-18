@@ -11,6 +11,7 @@ import portfolio5 from "./assets/images/portfolio-5.png";
 import portfolio6 from "./assets/images/portfolio-6.png";
 import portfolio7 from "./assets/images/portfolio-7.png";
 import portfolio8 from "./assets/images/portfolio-8.png";
+import Contact from "./components/Contact/Contact";
 
 export const MyContext = React.createContext([]);
 
@@ -32,6 +33,7 @@ export const App = () => {
         <Intro />
         <Skills />
         <Works />
+        <Contact/>
       </MyContext.Provider>
     </>
   );
