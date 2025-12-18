@@ -45,12 +45,12 @@
     
 }
 .contactForm{
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 70vw;
-    
 }
 .link{
     width: 50px;
