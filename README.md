@@ -1,16 +1,49 @@
-# React + Vite
+# React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React to showcase projects, skills, and contact information.  
+The application is fully responsive and designed to work smoothly across different screen sizes.
 
-Currently, two official plugins are available:
+## Live Demo
+🔗 https://omidprogramm.github.io/portfolio-react/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fully responsive design
+- Modern navigation bar
+- Skills section
+- Contact section
+- Multiple content sections for portfolio presentation
+- Clean and simple UI
 
-## React Compiler
+## Technologies Used
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Project Purpose
+This project was created as a personal portfolio to demonstrate frontend development skills using React, 
+including responsive layout design and component-based architecture.
+## Limitations
+- No backend integratio
+- Contact section does not store data in a database
 
-## Expanding the ESLint configuration
+## License
+  This project is open source and available under the MIT License.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+Developed by Omidvari
+
+## Installation
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/omidprogramm/portfolio-react.git
+## Navigate to the project directory
+cd portfolio-react
+## Install dependencies
+npm install
+## Start the development server
+npm start
+The app will be available at http://localhost:3000
+
