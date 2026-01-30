@@ -3,8 +3,10 @@
 A personal portfolio website built with React to showcase projects, skills, and contact information.  
 The application is fully responsive and designed to work smoothly across different screen sizes.
 
-## Live Demo
-🔗 https://omidprogramm.github.io/portfolio-react/
+🌐 Live Version
+
+This project is deployed on GitHub Pages and can be accessed online.
+🔗 [**LIVE DEMO**]( https://omidprogramm.github.io/portfolio-react/)
 
 ## Features
 - Fully responsive design
